@@ -1,7 +1,5 @@
 package com.example.ToDoApplication.Entity;
-
-import java.util.Date;
-
+import java.time.LocalDate;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.Entity;
@@ -15,7 +13,7 @@ public class ToDoEntity {
 	private Long id;
 	private String title;
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
-	private Date date;
+	private LocalDate date;
 	private String status;
 	public long getId() {
 		return id;
@@ -29,10 +27,10 @@ public class ToDoEntity {
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	public Date getDate() {
+	public LocalDate getDate() {
 		return date;
 	}
-	public void setDate(Date date) {
+	public void setDate(LocalDate date) {
 		this.date = date;
 	}
 	public String getStatus() {
