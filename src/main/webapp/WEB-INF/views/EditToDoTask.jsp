@@ -25,7 +25,7 @@
 
     <div class="container">
 
-        <h1 class="p-3"> Edit Item </h1>
+        <h1 class="p-3"> Edit ToDoTask </h1>
 
         <form:form action="/editSaveToDoTask" method="post" modelAttribute="todo">
 			<form:input path="id" type="hidden"/>
