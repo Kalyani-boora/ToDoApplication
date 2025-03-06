@@ -74,7 +74,7 @@
         </form:form>
 
         <button type="button" class="btn btn-primary btn-block">
-        	<a href="/addToDoTask">Add New ToDo Item</a>
+        	<a href="/addToDoTask">Add New ToDo Task</a>
         </button>
 
     </div>
