@@ -25,7 +25,7 @@
 
     <div class="container">
 
-        <h1 class="p-3"> Add a ToDo Item </h1>
+        <h1 class="p-3"> Add a ToDo Task </h1>
 
         <form:form action="/saveToDoTask" method="post" modelAttribute="todo">
 
