@@ -4,9 +4,13 @@ The ToDoApplication is a simple and efficient task management system that helps 
 this application provides a REST API for CRUD operations,a llowing users to add,update,delete and mark tasks as completed.
 ## Features :
 ✔️ Add to new tasks with a title and date
+
 ✔️ View all tasks in a structured list
+
 ✔️ Edit or delete tasks as needed
+
 ✔️Data stored securely using MYSQL+JPA/Hibernate
+
 ✔️User-friendly UI
 ## Tech Stack:
 **Backend :** Java,SpringBoot,Hibernate
